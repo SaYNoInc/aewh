@@ -2995,7 +2995,7 @@ fieldset {
 /* line 215, ../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
 fieldset legend {
   font-weight: bold;
-  background: white;
+  /*background: white;*/
   padding: 0 0.1875em;
   margin: 0;
   margin-left: -0.1875em;

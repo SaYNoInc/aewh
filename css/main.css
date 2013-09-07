@@ -2,3 +2,14 @@
 #form-inspiration textarea {
   min-height: 20em;
 }
+
+/* line 4, ../sass/main.sass */
+body {
+  background: url("../images/bg1.png") repeat transparent;
+}
+
+/* line 7, ../sass/main.sass */
+#author-avatar {
+  float: left;
+  margin-right: 10px;
+}
