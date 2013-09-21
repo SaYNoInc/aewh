@@ -31,15 +31,15 @@
 	<ul class="right">
 		<li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
 		<li class="divider"></li>
-		<li><a href="index.html">home</a></li>
+		<li><a href="index.php">home</a></li>
 		<li class="divider"></li>
-		<li><a href="about.html">about</a></li>
+		<li><a href="about.php">about</a></li>
 		<li class="divider"></li>
 		<li class="has-dropdown"><a href="#">shopping</a>
-			<ul class="dropdown"><li><a href="#">The book</a></li></ul>
+			<ul class="dropdown"><li><a href="shopping.php">The book</a></li></ul>
 		</li>
 		<li class="divider"></li>
-		<li><a href="#">contact</a></li>
+		<li><a href="<?php echo 'index.php?page=contact'; ?>">contact</a></li>
 		<li class="divider"></li>
 	</ul>
 </section>
@@ -79,7 +79,7 @@ The journey to find her family took Alisohn on a path well travelled by many who
 	<script src="js/foundation/foundation.abide.js"></script>
 	
 	<script src="js/foundation/foundation.alerts.js"></script>
-<!--	
+	
 	<script src="js/foundation/foundation.clearing.js"></script>
 	
 	<script src="js/foundation/foundation.cookie.js"></script>
@@ -105,7 +105,7 @@ The journey to find her family took Alisohn on a path well travelled by many who
 	<script src="js/foundation/foundation.tooltips.js"></script>
 	
 	<script src="js/foundation/foundation.topbar.js"></script>
-	-->
+	
   
   <script>
     $(document).foundation();

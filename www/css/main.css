@@ -1,0 +1,74 @@
+/* line 1, ../sass/main.sass */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* line 5, ../sass/main.sass */
+#form-inspiration textarea {
+  min-height: 20em;
+}
+
+/* line 8, ../sass/main.sass */
+body {
+  background: url("../images/bg1.png") repeat transparent;
+}
+
+/* line 11, ../sass/main.sass */
+#author-avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 15, ../sass/main.sass */
+#header-title {
+  font-family: "Great Vibes", cursive;
+  font-size: 6em;
+  text-align: center;
+}
+
+/* line 20, ../sass/main.sass */
+#jerseyscript {
+  float: right;
+}
+
+/* line 23, ../sass/main.sass */
+.msg {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* line 27, ../sass/main.sass */
+.list-insp {
+  position: relative;
+  margin: 0.8em 0;
+  padding: 0.7em;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* line 34, ../sass/main.sass */
+.list-insp p {
+  margin-bottom: 1.5em;
+}
+
+/* line 37, ../sass/main.sass */
+.timestamp {
+  font-size: 0.8em;
+  color: #999999;
+  font-style: italic;
+}
+
+/* line 42, ../sass/main.sass */
+.link-delete-parent {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5em;
+}
+
+/* line 49, ../sass/main.sass */
+.link-delete {
+  color: white;
+}
