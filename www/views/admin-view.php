@@ -36,7 +36,7 @@ class AdminView extends View{
 
 		$html .= '<div id="clear"></div>';
 
-		$html .= '<input type="submit" name="login" value="Login" /> '."\n";
+		$html .= '<input class="small button" type="submit" name="login" value="Login" /> '."\n";
 		$html .= '</form>'."\n";
 
 		return $html;
