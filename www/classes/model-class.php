@@ -15,7 +15,7 @@ public $adminLoggedIn; // boolean variable which set to true if admin is logged 
 		if (in_array($_GET['page'], $pagesToValidate)) {
 			
 			include 'classes/validate-class.php';
-			$this-> validate = new Validate;
+			$this->validate = new Validate;
 
 		}# end if
 

@@ -117,7 +117,7 @@ public function insertInsp(){
 
 	if (!get_magic_quotes_gpc()) {
 	
-		$this-> sanitiseInput();
+		$this->sanitiseInput();
 	
 	}# end if
 
@@ -133,7 +133,7 @@ public function insertInsp(){
 	
 	}else{
 
-		echo "Error inserting product " . $qry;
+		echo "Error inserting Inspiration " . $qry;
 	
 	}# end if
 
@@ -164,6 +164,38 @@ public function deleteInsp(){
 
 }# end deletePost
 
+public function getUser(){
+		extract($_POST);
+		$password = sha1($userPassword);	//	encrypt the password form the form
+		$qry = "SELECT userID, userName, userAccess FROM users where userName = '$userName' and userPassword = '$password'";
+		$rs = $this->db->query($qry);
+		
+		if ($rs) {
+			
+			if ($rs->num_rows > 0) {
+			
+				$user = $rs->fetch_assoc();		//	convert the user record to an associatve array
+				return $user;
+			
+			}# end if
+		
+		}else{
+			
+			echo 'Error executing query '.$qry;
+		
+		}# end if
+	
+	}# end getUser
+
+public function sanitiseInput(){
+
+	foreach ($_POST as &$post) {
+		
+		$post = $this->db->real_escape_string($post);
+
+	}# end foreach
+
+}# end sanitiseInput
 
 }# end Dbase
 ?>

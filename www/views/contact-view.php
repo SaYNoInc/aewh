@@ -75,7 +75,7 @@ function processForm() {
 	}
 	
 	if(empty($errors)) {
-		return sendMail();
+		return $this->sendMail();
 	} else {
 		return $errors;
 	}	
@@ -107,7 +107,7 @@ function sendMail() {
 	$sent = mail($to, $subject, $body, $headers);
 	
 	if($sent) {
-		return 'The email has been successfully send. We shall contact you ASAP.';
+		return 'The email has been successfully send. I shall contact you ASAP.';
 	} else {
 		return 'Sorry, an error has occurred. Please try again later.';
 	}
