@@ -4,7 +4,7 @@ class ContactView extends View{
 	private $insps;
 	protected function displayContent(){
 	
-	$html .= '<div class="large-12 columns">';	
+	$html .= '<div class="large-8 columns">';	
 	$html .= '<h1>Contact Me</h1>';
 
 	if($_POST['contact']) {
@@ -33,7 +33,7 @@ class ContactView extends View{
 
 	function displayForm() {
 	
-	$html = '<form method="post" action="'.$_SERVER['REQUEST_URI'].'">';
+	$html = '<form id="contact-form" method="post" action="'.$_SERVER['REQUEST_URI'].'">';
 	
 	$html .= '<div>';
 	$html .= '<label for="name">Name:</label><br />';

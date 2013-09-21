@@ -10,6 +10,7 @@
   
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
   
 
   <script src="js/vendor/custom.modernizr.js"></script>
@@ -20,6 +21,7 @@
 <div class="row">
 	<div class="large-12 columns">
 		<img src="images/sunset1.png">
+		<img id="inset" src="images/inset.jpg">
 	</div>
 </div>
 <div class="row">
@@ -49,7 +51,9 @@
 </div>
 <!-- END HEADER  -->
 <div class="row">
-
+<div class="large-12 columns">
+<h2 id="header-title"><?php echo "An Encounter With Hope";?></h2>
+</div>
 <div class="large-8 columns">
 <h3>This is a title of the book</h3>
 <img id="author-avatar" src="images/dummy-avatar.png">

@@ -10,15 +10,16 @@ class HomeView extends View{
 		// print_r($_SESSION);
 		// echo "</pre>";
 		$html = '<div class="large-12 columns">';
-		$html .= '<h2 id="header-title">'.$this-> pageInfo['pageHeading'].'</h2>'."\n";
+		$html .= '<h2 id="header-title">'.$this->pageInfo['pageHeading'].'</h2>'."\n";
 	 $html .= '</div>';
-			// $html .= '<p><img src="images/theBakery.jpg" />'.nl2br($this-> pageInfo['pageContent']).'</p>'."\n";
-			
-		$content = explode('<!---->', $this-> pageInfo['pageContent']);
+		
+		$content = explode('<!---->', $this->pageInfo['pageContent']);
 		$html .= '<div class="large-8 columns">';
 		$html .= $content[0];
+		$html .= '<h4>Daily inspiration\'s</h4>';
+
 		foreach ($this->insps as $insp) {
-		$html .= '<p>&quot;';
+		$html .= '<p class="quote">&quot;';
 	
 			$html .= $insp['inspText']; 
 	

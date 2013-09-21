@@ -39,6 +39,16 @@ body {
 }
 
 /* line 27, ../sass/main.sass */
+h4 {
+  text-align: center;
+}
+
+/* line 30, ../sass/main.sass */
+.quote {
+  font-style: italic;
+}
+
+/* line 33, ../sass/main.sass */
 .list-insp {
   position: relative;
   margin: 0.8em 0;
@@ -47,19 +57,19 @@ body {
   background-color: white;
 }
 
-/* line 34, ../sass/main.sass */
+/* line 40, ../sass/main.sass */
 .list-insp p {
   margin-bottom: 1.5em;
 }
 
-/* line 37, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .timestamp {
   font-size: 0.8em;
   color: #999999;
   font-style: italic;
 }
 
-/* line 42, ../sass/main.sass */
+/* line 48, ../sass/main.sass */
 .link-delete-parent {
   background-color: black;
   position: absolute;
@@ -68,7 +78,31 @@ body {
   padding: 0.5em;
 }
 
-/* line 49, ../sass/main.sass */
+/* line 55, ../sass/main.sass */
 .link-delete {
   color: white;
+}
+
+/* line 58, ../sass/main.sass */
+#pics {
+  position: relative;
+}
+
+/* line 61, ../sass/main.sass */
+#inset {
+  width: 20%;
+  z-index: 1;
+  position: absolute;
+  top: 10em;
+  left: -3em;
+}
+
+/* line 68, ../sass/main.sass */
+#loginInfo {
+  float: right;
+}
+
+/* line 71, ../sass/main.sass */
+#contact-form textarea {
+  height: 10em;
 }

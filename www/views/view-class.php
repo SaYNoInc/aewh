@@ -10,7 +10,7 @@ abstract class View {
 	public function __construct($info, $model) {
 
 		$this->pageInfo = $info;
-		$this->model   = $model;
+		$this->model = $model;
 
 	}# end __construct
 
@@ -33,8 +33,9 @@ abstract class View {
 		// $html .= '<h1><a id="home" href="index.php"><span id="the">The</span>Bakery</a></h1>'."\n";
 		// $html .= '<p id="small-cart">'."\n";
 		$html .= '<div class="row">
-	<div class="large-12 columns">
+	<div id="pics" class="large-12 columns">
 		<img src="images/sunset1.png">
+		<img id="inset" src="images/inset.jpg">
 	</div>
 </div>';
 
@@ -83,7 +84,7 @@ $html .= '
 	private function displayLoginInfo(){
 
 		if ($this->model->adminLoggedIn) {
-			$html = '<p id="loginInfo">You are logged in as '.$_SESSION['userName'].'</p>'."\n";
+			$html = '<span id="loginInfo">You are logged in as '.$_SESSION['userName'].'</span>'."\n";
 			return $html;
 		}# end if
 
@@ -141,11 +142,11 @@ $html .= '
 			
 		}else{
 
-		$html .= '<a href="index.php?page=admin">Login</a>';
+		// $html .= '<a href="index.php?page=admin">Login</a>';
+		$html .= '</p>'."\n";	
 			
 		}# end if
 		
-		$html .= ' <span id="jerseyscript">Website by <a href="http://jerseyscript.com">Seno Amarto S</a></span></p>'."\n";	
 		$html .= '</div>'."\t\t";
 		$html .= '</div>';
 		$html .= '</div>';

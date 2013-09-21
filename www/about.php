@@ -11,7 +11,7 @@
   
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/main.css">
-  
+  <link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
@@ -21,6 +21,7 @@
 <div class="row">
 	<div class="large-12 columns">
 		<img src="images/sunset1.png">
+		<img id="inset" src="images/inset.jpg">
 	</div>
 </div>
 <div class="row">
@@ -51,6 +52,7 @@
 
 	<div class="row">
 	<div class="large-12 columns">
+	<h2 id="header-title"><?php echo "An Encounter With Hope";?></h2>
 	<img id="author-avatar" src="images/dummy-avatar.png">
 	<p>Alisohn was born in the mid-sixties in London England at a time when single parenting was less common in comparison with today's society.  There was very little support to assist families in need like there is today.  Her mother struggled to raise three children on her own and faced her own daily battles.
 Alisohn describes what her life was like growing up without knowing her father and the constant reminder that she continues to deal with throughout her life.
