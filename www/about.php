@@ -70,8 +70,8 @@ The journey to find her family took Alisohn on a path well travelled by many who
 	</div>
 	</div>
 
-	<div class="row">
-	<div class="large-12 columns">
+<div id="footer" class="row">
+<div class="large-12 columns">
 <div id="footer"><p>&copy;<?php echo date("Y"); ?> An Encounter With Hope &sdot;
 </div>
 </div>

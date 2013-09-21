@@ -6,7 +6,10 @@ class InspirationsView extends View{
 		$this->insps = $this->model->getInsp();
 		// echo count($this->insps);
 
+
 		$html = '<div class="large-12 columns">';
+		if ($this->model->adminLoggedIn) {
+
 		$html .= '<h2 id="header-title">'.$this->pageInfo['pageHeading'].'</h2>'."\n";
 	 $html .= '</div>';
 
@@ -20,9 +23,15 @@ class InspirationsView extends View{
 			$html .= '</div>';
 	
 		// $html .= '&quot;</p>';
-		}# end foreach
+		}
 
 		$html .= '</div>';
+			
+		}else{
+
+			$html .= '<p>This page is restricted. <a href="index.php">Lost?</a></p>';
+			
+		}# end foreach
 
 		
 

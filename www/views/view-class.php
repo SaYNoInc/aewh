@@ -130,7 +130,7 @@ $html .= '
 
 		// $html = '</div>'."\t\t";
 		$html = '</div>'."\t\t";
-		$html .= '<div class="row">';
+		$html .= '<div id="footer" class="row">';
 		$html .= '<div class="large-12 columns">';
 		$html .= '<div id="footer"><p>&copy;2013 An Encounter With Hope &sdot; ';
 		// check if admin is login

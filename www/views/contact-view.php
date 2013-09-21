@@ -50,7 +50,7 @@ class ContactView extends View{
 	$html .= '<textarea id="message" name="message">'.$_POST['message'].'</textarea>';
 	$html .= '</div>';
 	
-	$html .= '<input type="submit" name="contact" value="Contact Us" />';
+	$html .= '<input class="small button" type="submit" name="contact" value="Contact Me" />';
 	
 	$html .= '</form>';
 	

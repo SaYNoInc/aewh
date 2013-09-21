@@ -16,7 +16,7 @@ class AdminView extends View{
 		}else{
 
 		$html .= $this-> displayLoginForm();
-		$html .= '<p class="failedMessage">'.$this->model->loginMsg.'</p>'."\n";
+		$html .= '<p class="error">'.$this->model->loginMsg.'</p>'."\n";
 
 		}# end if
 

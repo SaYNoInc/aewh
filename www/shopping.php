@@ -65,9 +65,10 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </div>
-	<div class="row">
+	<div id="footer" class="row">
 	<div class="large-12 columns">
 <div id="footer"><p>&copy;<?php echo date("Y"); ?> An Encounter With Hope &sdot;
+</div>
 </div>
 </div>
 </div>
