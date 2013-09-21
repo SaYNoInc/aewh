@@ -106,3 +106,8 @@ h4 {
 #contact-form textarea {
   height: 10em;
 }
+
+/* line 74, ../sass/main.sass */
+.error {
+  color: #fb5050;
+}

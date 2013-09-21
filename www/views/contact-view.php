@@ -14,7 +14,7 @@ class ContactView extends View{
 			
 			$html .= '<ul>';
 			foreach($result as $error) {
-				$html .= '<li>'.$error.'</li>';
+				$html .= '<li class="error">'.$error.'</li>';
 			}
 			$html .= '</ul>';
 			
