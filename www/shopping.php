@@ -55,14 +55,9 @@
 <h2 id="header-title"><?php echo "An Encounter With Hope";?></h2>
 </div>
 <div class="large-8 columns">
-<h3>This is a title of the book</h3>
+<h3>I am My Father's Daughter</h3>
 <img id="author-avatar" src="images/dummy-avatar.png">
-<p>Description of the book goes here. consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Alisohn never knew her father.  Brought up in a single parent household, at 21 she discovered she has a different father from her older siblings.  This is her story of how she battled with the shock, grief and shame; how she overcame her disappointments and failures.  Although her search has spanned over twenty five years, crossing continents, she never gave up hope of finding her father.  It is a true story that takes you on a journey of struggles, through hardships and heartache, but ultimately triumphs in forgiveness and discovery as she uncovers the truth.</p>
 
 </div>
 	<div id="footer" class="row">

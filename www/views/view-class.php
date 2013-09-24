@@ -34,7 +34,7 @@ abstract class View {
 		// $html .= '<p id="small-cart">'."\n";
 		$html .= '<div class="row">
 	<div id="pics" class="large-12 columns">
-		<img src="images/sunset1.png">
+		<img src="images/sunset2.png">
 		<img id="inset" src="images/inset.jpg">
 	</div>
 </div>';

@@ -16,8 +16,13 @@ class HomeView extends View{
 		$content = explode('<!---->', $this->pageInfo['pageContent']);
 		$html .= '<div class="large-8 columns">';
 		$html .= $content[0];
-		$html .= '<h4>Daily inspiration\'s</h4>';
+		
 
+		$html .= $content[1];
+		$html .= '</div>';
+		
+		$html .= '<div class="large-4 columns">';
+		$html .= '<h4>Daily inspiration</h4>';
 		foreach ($this->insps as $insp) {
 		$html .= '<p class="quote">&quot;';
 	
@@ -25,10 +30,6 @@ class HomeView extends View{
 	
 		$html .= '&quot;</p>';
 		}# end foreach
-		$html .= '</div>';
-		
-		$html .= '<div class="large-4 columns">';
-		$html .= $content[1];
 		$html .= '</div>';
 
 		if ($_POST['submit']) {
