@@ -34,7 +34,7 @@ abstract class View {
 		// $html .= '<p id="small-cart">'."\n";
 		$html .= '<div class="row">
 	<div id="pics" class="large-12 columns">
-		<img src="images/sunset2.png">
+		<img src="images/sunset3.jpg">
 		<img id="inset" src="images/inset.jpg">
 	</div>
 </div>';
@@ -98,10 +98,10 @@ $html .= '
 		<li class="divider"></li>
 		<li><a href="index.php?page=home">home</a></li>
 		<li class="divider"></li>
-		<li><a href="about.php">about</a></li>
+		<li><a href="about.php">about the author</a></li>
 		<li class="divider"></li>
 		<li class="has-dropdown"><a href="#">shopping</a>
-			<ul class="dropdown"><li><a href="shopping.php">The book</a></li></ul>
+			<ul class="dropdown"><li><a href="shopping.php">About The Book - I Am My Daughter\'s Father</a></li></ul>
 		</li>
 		<li class="divider"></li>
 		<li><a href="index.php?page=contact">contact</a></li>
@@ -132,7 +132,7 @@ $html .= '
 		$html = '</div>'."\t\t";
 		$html .= '<div id="footer" class="row">';
 		$html .= '<div class="large-12 columns">';
-		$html .= '<div id="footer"><p>&copy;2013 An Encounter With Hope &sdot; ';
+		$html .= '<div id="footer"><p>&copy;2013 An Encounter With Hope ';
 		// check if admin is login
 		if ($this->model->adminLoggedIn) {
 

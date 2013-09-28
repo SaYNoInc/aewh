@@ -20,7 +20,7 @@
 
 <div class="row">
 	<div class="large-12 columns">
-		<img src="images/sunset1.png">
+		<img src="images/sunset3.jpg">
 		<img id="inset" src="images/inset.jpg">
 	</div>
 </div>
@@ -34,10 +34,10 @@
 		<li class="divider"></li>
 		<li><a href="index.php">home</a></li>
 		<li class="divider"></li>
-		<li><a href="about.php">about</a></li>
+		<li><a href="about.php">about the author</a></li>
 		<li class="divider"></li>
 		<li class="has-dropdown"><a href="#">shopping</a>
-			<ul class="dropdown"><li><a href="shopping.php">The book</a></li></ul>
+			<ul class="dropdown"><li><a href="shopping.php">About The Book - I Am My Daughter's Father</a></li></ul>
 		</li>
 		<li class="divider"></li>
 		<li><a href="<?php echo 'index.php?page=contact'; ?>">contact</a></li>
@@ -53,7 +53,7 @@
 	<div class="row">
 	<div class="large-12 columns">
 	<h2 id="header-title"><?php echo "An Encounter With Hope";?></h2>
-	<img id="author-avatar" src="images/dummy-avatar.png">
+	<img id="author-avatar" src="images/alisohn.jpg">
 	<p>Alisohn was born in the mid-sixties in London England at a time when single parenting was less common in comparison with today's society.  There was very little support to assist families in need like there is today.  Her mother struggled to raise three children on her own and faced her own daily battles.
 Alisohn describes what her life was like growing up without knowing her father and the constant reminder that she continues to deal with throughout her life.
  </p>
@@ -72,7 +72,7 @@ The journey to find her family took Alisohn on a path well travelled by many who
 
 <div id="footer" class="row">
 <div class="large-12 columns">
-<div id="footer"><p>&copy;<?php echo date("Y"); ?> An Encounter With Hope &sdot;
+<div id="footer"><p>&copy;<?php echo date("Y"); ?> An Encounter With Hope 
 </div>
 </div>
 </div>

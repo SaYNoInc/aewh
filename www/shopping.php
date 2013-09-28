@@ -20,7 +20,7 @@
 
 <div class="row">
 	<div class="large-12 columns">
-		<img src="images/sunset1.png">
+		<img src="images/sunset3.jpg">
 		<img id="inset" src="images/inset.jpg">
 	</div>
 </div>
@@ -34,10 +34,10 @@
 		<li class="divider"></li>
 		<li><a href="index.php">home</a></li>
 		<li class="divider"></li>
-		<li><a href="about.php">about</a></li>
+		<li><a href="about.php">about the author</a></li>
 		<li class="divider"></li>
 		<li class="has-dropdown"><a href="#">shopping</a>
-			<ul class="dropdown"><li><a href="shopping.php">The book</a></li></ul>
+			<ul class="dropdown"><li><a href="shopping.php">About The Book - I Am My Daughter's Father</a></li></ul>
 		</li>
 		<li class="divider"></li>
 		<li><a href="<?php echo 'index.php?page=contact'; ?>">contact</a></li>
@@ -56,13 +56,13 @@
 </div>
 <div class="large-8 columns">
 <h3>I am My Father's Daughter</h3>
-<img id="author-avatar" src="images/dummy-avatar.png">
+<img id="author-avatar" src="images/alisohn.jpg">
 <p>Alisohn never knew her father.  Brought up in a single parent household, at 21 she discovered she has a different father from her older siblings.  This is her story of how she battled with the shock, grief and shame; how she overcame her disappointments and failures.  Although her search has spanned over twenty five years, crossing continents, she never gave up hope of finding her father.  It is a true story that takes you on a journey of struggles, through hardships and heartache, but ultimately triumphs in forgiveness and discovery as she uncovers the truth.</p>
 
 </div>
 	<div id="footer" class="row">
 	<div class="large-12 columns">
-<div id="footer"><p>&copy;<?php echo date("Y"); ?> An Encounter With Hope &sdot;
+<div id="footer"><p>&copy;<?php echo date("Y"); ?> An Encounter With Hope 
 </div>
 </div>
 </div>

@@ -86,7 +86,7 @@ function sendMail() {
 	
 	extract($_POST);
 	
-	$to = 'alisohnf@gmail.com';
+	$to = 'hope.encountered@gmail.com';
 	$subject = 'Message from your website: ';
 	
 	$body = 'Someone is enquirying through the contact form.'."<br />\r\n";

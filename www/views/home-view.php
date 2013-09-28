@@ -22,7 +22,7 @@ class HomeView extends View{
 		$html .= '</div>';
 		
 		$html .= '<div class="large-4 columns">';
-		$html .= '<h4>Daily inspiration</h4>';
+		$html .= '<h4>Daily Inspiration</h4>';
 		foreach ($this->insps as $insp) {
 		$html .= '<p class="quote">&quot;';
 	
